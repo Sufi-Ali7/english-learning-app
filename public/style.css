@@ -1378,3 +1378,74 @@ html[data-theme="light"] .footer a:hover{color:#088f78!important;}
   padding-top:0!important;
   padding-bottom:0!important;
 }
+/* MOBILE NAV FIX */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header,
+  .navbar,
+  .site-header {
+    position: relative;
+    z-index: 1000;
+  }
+
+  .nav-links,
+  .menu,
+  .navbar-menu {
+    position: absolute;
+    top: 100%;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    padding: 18px;
+    background: rgba(5, 12, 28, 0.98);
+    border: 1px solid rgba(120, 160, 255, 0.2);
+    border-radius: 22px;
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 9999;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.45);
+  }
+
+  .nav-links.active,
+  .menu.active,
+  .navbar-menu.active,
+  .nav-links.show,
+  .menu.show,
+  .navbar-menu.show {
+    display: flex;
+  }
+
+  .nav-links a,
+  .menu a,
+  .navbar-menu a {
+    display: block;
+    width: 100%;
+    padding: 14px 18px;
+    border-radius: 16px;
+  }
+
+  .nav-links a.active,
+  .menu a.active,
+  .navbar-menu a.active {
+    background: linear-gradient(90deg, #8ec5ff, #62ead2);
+    color: #06101f !important;
+  }
+
+  .hero,
+  .page,
+  main,
+  .auth-page,
+  .auth-card {
+    position: relative;
+    z-index: 1;
+  }
+
+  .brand h2,
+  .brand-name {
+    font-size: 20px;
+  }
+}
