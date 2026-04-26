@@ -15,13 +15,9 @@ const PORT = process.env.PORT || 5001;
 const DATA = path.join(__dirname, "data");
 const SENTENCES = path.join(DATA, "sentences.json");
 
+// Middleware
 app.use(express.json({ limit: "10mb" }));
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, "public")));
-
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
-});
 
 app.use(
   session({
@@ -29,16 +25,18 @@ app.use(
     resave: false,
     saveUninitialized: false,
     cookie: { maxAge: 604800000 },
-  }),
+  })
 );
 
 app.use(express.static(path.join(__dirname, "public")));
 
+// MongoDB
 mongoose
   .connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log("MongoDB Error:", err.message));
 
+// Helpers
 function read(file, fallback) {
   try {
     if (!fs.existsSync(file)) {
@@ -46,7 +44,7 @@ function read(file, fallback) {
       return fallback;
     }
     return JSON.parse(fs.readFileSync(file, "utf8"));
-  } catch (e) {
+  } catch {
     return fallback;
   }
 }
@@ -99,18 +97,20 @@ function needAdmin(req, res, next) {
 
 function progress(u) {
   const today = new Date().toISOString().slice(0, 10);
+
   if (u.lastPracticeDate !== today) {
-    const yesterday = new Date(Date.now() - 86400000)
-      .toISOString()
-      .slice(0, 10);
+    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
     u.streak = u.lastPracticeDate === yesterday ? (u.streak || 0) + 1 : 1;
     u.lastPracticeDate = today;
   }
+
   u.practicedCount = (u.practicedCount || 0) + 1;
 }
 
+// API routes
 app.get("/api/health", async (req, res) => {
   const userCount = await User.countDocuments();
+
   res.json({
     ok: true,
     sentences: sentences().length,
@@ -121,9 +121,11 @@ app.get("/api/health", async (req, res) => {
 
 app.get("/api/categories", (req, res) => {
   const map = {};
+
   sentences().forEach((s) => {
     map[s.category] = (map[s.category] || 0) + 1;
   });
+
   res.json({
     categories: Object.entries(map).map(([value, count]) => ({ value, count })),
   });
@@ -131,6 +133,7 @@ app.get("/api/categories", (req, res) => {
 
 app.get("/api/auth/me", async (req, res) => {
   let user = null;
+
   if (req.session.userId) {
     user = await User.findById(req.session.userId);
   }
@@ -144,18 +147,15 @@ app.get("/api/auth/me", async (req, res) => {
 app.post("/api/auth/signup", async (req, res) => {
   try {
     const name = String(req.body.name || "").trim();
-    const email = String(req.body.email || "")
-      .trim()
-      .toLowerCase();
+    const email = String(req.body.email || "").trim().toLowerCase();
     const password = String(req.body.password || "");
 
     if (!name || !email || !password) {
       return res.status(400).json({ error: "All fields are required." });
     }
+
     if (password.length < 6) {
-      return res
-        .status(400)
-        .json({ error: "Password must be at least 6 characters." });
+      return res.status(400).json({ error: "Password must be at least 6 characters." });
     }
 
     const existing = await User.findOne({ email });
@@ -176,7 +176,11 @@ app.post("/api/auth/signup", async (req, res) => {
     });
 
     req.session.userId = String(user._id);
-    res.json({ message: "Signup successful.", user: pub(user) });
+
+    res.json({
+      message: "Signup successful.",
+      user: pub(user),
+    });
   } catch (err) {
     res.status(500).json({ error: "Signup failed." });
   }
@@ -184,18 +188,21 @@ app.post("/api/auth/signup", async (req, res) => {
 
 app.post("/api/auth/login", async (req, res) => {
   try {
-    const email = String(req.body.email || "")
-      .trim()
-      .toLowerCase();
+    const email = String(req.body.email || "").trim().toLowerCase();
     const password = String(req.body.password || "");
 
     const user = await User.findOne({ email });
+
     if (!user || !(await bcrypt.compare(password, user.password))) {
       return res.status(400).json({ error: "Invalid email or password." });
     }
 
     req.session.userId = String(user._id);
-    res.json({ message: "Login successful.", user: pub(user) });
+
+    res.json({
+      message: "Login successful.",
+      user: pub(user),
+    });
   } catch (err) {
     res.status(500).json({ error: "Login failed." });
   }
@@ -207,11 +214,10 @@ app.post("/api/auth/logout", (req, res) => {
 
 app.get("/api/sentences", (req, res) => {
   let list = sentences();
+
   const cat = String(req.query.category || "all");
   const level = String(req.query.level || "all");
-  const q = String(req.query.q || "")
-    .toLowerCase()
-    .trim();
+  const q = String(req.query.q || "").toLowerCase().trim();
   const limit = Math.min(Number(req.query.limit) || 1200, 2000);
 
   if (cat !== "all") list = list.filter((x) => x.category === cat);
@@ -224,12 +230,19 @@ app.get("/api/sentences", (req, res) => {
 app.post("/api/practice/track", needUser, async (req, res) => {
   progress(req.user);
   await req.user.save();
-  res.json({ message: "Practice tracked.", user: pub(req.user) });
+
+  res.json({
+    message: "Practice tracked.",
+    user: pub(req.user),
+  });
 });
 
 app.get("/api/saved", needUser, (req, res) => {
   const ids = new Set(req.user.savedSentenceIds || []);
-  res.json({ items: sentences().filter((s) => ids.has(s.id)) });
+
+  res.json({
+    items: sentences().filter((s) => ids.has(s.id)),
+  });
 });
 
 app.post("/api/saved/:id", needUser, async (req, res) => {
@@ -240,43 +253,44 @@ app.post("/api/saved/:id", needUser, async (req, res) => {
   }
 
   req.user.savedSentenceIds = req.user.savedSentenceIds || [];
+
   if (!req.user.savedSentenceIds.includes(id)) {
     req.user.savedSentenceIds.push(id);
   }
 
   await req.user.save();
+
   res.json({ message: "Saved." });
 });
 
 app.delete("/api/saved/:id", needUser, async (req, res) => {
   const id = Number(req.params.id);
-  req.user.savedSentenceIds = (req.user.savedSentenceIds || []).filter(
-    (x) => x !== id,
-  );
+
+  req.user.savedSentenceIds = (req.user.savedSentenceIds || []).filter((x) => x !== id);
+
   await req.user.save();
+
   res.json({ message: "Removed." });
 });
 
 app.get("/api/profile", needUser, (req, res) => {
   const ids = new Set(req.user.savedSentenceIds || []);
+
   res.json({
     profile: {
       ...pub(req.user),
-      saved: sentences()
-        .filter((s) => ids.has(s.id))
-        .slice(0, 12),
+      saved: sentences().filter((s) => ids.has(s.id)).slice(0, 12),
     },
   });
 });
 
+// Admin API
 app.post("/api/admin/login", (req, res) => {
   const adminUser = process.env.ADMIN_USERNAME;
   const adminPass = process.env.ADMIN_PASSWORD;
 
   if (!adminUser || !adminPass) {
-    return res
-      .status(500)
-      .json({ error: "Admin credentials are not configured in .env." });
+    return res.status(500).json({ error: "Admin credentials are not configured." });
   }
 
   if (req.body.username === adminUser && req.body.password === adminPass) {
@@ -305,9 +319,8 @@ app.get("/api/admin/stats", needAdmin, async (req, res) => {
 
 app.get("/api/admin/sentences", needAdmin, (req, res) => {
   let list = sentences();
-  const q = String(req.query.q || "")
-    .toLowerCase()
-    .trim();
+
+  const q = String(req.query.q || "").toLowerCase().trim();
   const cat = String(req.query.category || "all");
   const level = String(req.query.level || "all");
 
@@ -320,10 +333,14 @@ app.get("/api/admin/sentences", needAdmin, (req, res) => {
 
 app.post("/api/admin/sentences", needAdmin, (req, res) => {
   const text = String(req.body.text || "").trim();
-  if (!text) return res.status(400).json({ error: "Sentence text required." });
+
+  if (!text) {
+    return res.status(400).json({ error: "Sentence text required." });
+  }
 
   const list = sentences();
   const id = list.length ? Math.max(...list.map((x) => x.id)) + 1 : 1;
+
   const item = {
     id,
     text,
@@ -334,6 +351,7 @@ app.post("/api/admin/sentences", needAdmin, (req, res) => {
 
   list.unshift(item);
   saveSentences(list);
+
   res.json({ message: "Added.", item });
 });
 
@@ -342,7 +360,9 @@ app.put("/api/admin/sentences/:id", needAdmin, (req, res) => {
   const list = sentences();
   const item = list.find((x) => x.id === id);
 
-  if (!item) return res.status(404).json({ error: "Sentence not found." });
+  if (!item) {
+    return res.status(404).json({ error: "Sentence not found." });
+  }
 
   item.text = String(req.body.text || item.text).trim();
   item.category = String(req.body.category || item.category);
@@ -350,19 +370,24 @@ app.put("/api/admin/sentences/:id", needAdmin, (req, res) => {
   item.tag = String(req.body.tag || item.tag);
 
   saveSentences(list);
+
   res.json({ message: "Updated.", item });
 });
 
 app.delete("/api/admin/sentences/:id", needAdmin, (req, res) => {
   const id = Number(req.params.id);
+
   saveSentences(sentences().filter((x) => x.id !== id));
+
   res.json({ message: "Deleted." });
 });
 
 app.post("/api/admin/import", needAdmin, (req, res) => {
   const rows = Array.isArray(req.body.items) ? req.body.items : [];
-  if (!rows.length)
+
+  if (!rows.length) {
     return res.status(400).json({ error: "No items provided." });
+  }
 
   const list = sentences();
   let id = list.length ? Math.max(...list.map((x) => x.id)) + 1 : 1;
@@ -378,13 +403,16 @@ app.post("/api/admin/import", needAdmin, (req, res) => {
     .filter((x) => x.text);
 
   saveSentences([...cleaned, ...list]);
+
   res.json({ message: `${cleaned.length} imported.` });
 });
 
+// Page routes
 app.get("/admin-login", (req, res) => {
   if (req.session.admin) {
     return res.redirect("/admin");
   }
+
   res.sendFile(path.join(__dirname, "public", "admin-login.html"));
 });
 
@@ -392,24 +420,25 @@ app.get("/admin", (req, res) => {
   if (!req.session.admin) {
     return res.redirect("/admin-login");
   }
+
   res.sendFile(path.join(__dirname, "public", "admin.html"));
 });
 
-[
-  "/",
-  "/practice",
-  "/categories",
-  "/saved",
-  "/profile",
-  "/login",
-  "/signup",
-].forEach((route) => {
+const pageRoutes = ["/", "/practice", "/categories", "/saved", "/profile", "/login", "/signup"];
+
+pageRoutes.forEach((route) => {
   const file = route === "/" ? "index.html" : route.slice(1) + ".html";
-  app.get(route, (req, res) =>
-    res.sendFile(path.join(__dirname, "public", file)),
-  );
+
+  app.get(route, (req, res) => {
+    res.sendFile(path.join(__dirname, "public", file));
+  });
 });
 
-app.listen(PORT, () =>
-  console.log(`EnglishFlow running on http://localhost:${PORT}`),
-);
+// 404 fallback for page refresh
+app.use((req, res) => {
+  res.status(404).send("Not Found");
+});
+
+app.listen(PORT, () => {
+  console.log(`EnglishFlow running on http://localhost:${PORT}`);
+});
