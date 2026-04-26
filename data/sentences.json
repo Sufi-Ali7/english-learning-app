@@ -1,0 +1,5805 @@
+[
+  {
+    "id": 1,
+    "text": "Please close the door.",
+    "category": "at_home",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 2,
+    "text": "I am going to clean my room.",
+    "category": "at_home",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 3,
+    "text": "Can you help me for a minute?",
+    "category": "at_home",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 4,
+    "text": "I need some rest.",
+    "category": "at_home",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 5,
+    "text": "Please turn off the light.",
+    "category": "at_home",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 6,
+    "text": "I will be ready soon.",
+    "category": "at_home",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 7,
+    "text": "Where is my phone?",
+    "category": "at_home",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 8,
+    "text": "Let us eat together.",
+    "category": "at_home",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 9,
+    "text": "Please, I am going to clean my room.",
+    "category": "at_home",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 10,
+    "text": "Please, Can you help me for a minute?",
+    "category": "at_home",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 11,
+    "text": "Please, I need some rest.",
+    "category": "at_home",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 12,
+    "text": "Please, I will be ready soon.",
+    "category": "at_home",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 13,
+    "text": "Please, Where is my phone?",
+    "category": "at_home",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 14,
+    "text": "Please, Let us eat together.",
+    "category": "at_home",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 15,
+    "text": "Today, Please close the door.",
+    "category": "at_home",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 16,
+    "text": "Today, I am going to clean my room.",
+    "category": "at_home",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 17,
+    "text": "Today, Can you help me for a minute?",
+    "category": "at_home",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 18,
+    "text": "Today, I need some rest.",
+    "category": "at_home",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 19,
+    "text": "Today, Please turn off the light.",
+    "category": "at_home",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 20,
+    "text": "Today, I will be ready soon.",
+    "category": "at_home",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 21,
+    "text": "Today, Where is my phone?",
+    "category": "at_home",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 22,
+    "text": "Today, Let us eat together.",
+    "category": "at_home",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 23,
+    "text": "Actually, Please close the door.",
+    "category": "at_home",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 24,
+    "text": "Actually, I am going to clean my room.",
+    "category": "at_home",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 25,
+    "text": "Actually, Can you help me for a minute?",
+    "category": "at_home",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 26,
+    "text": "Actually, I need some rest.",
+    "category": "at_home",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 27,
+    "text": "Actually, Please turn off the light.",
+    "category": "at_home",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 28,
+    "text": "Actually, I will be ready soon.",
+    "category": "at_home",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 29,
+    "text": "Actually, Where is my phone?",
+    "category": "at_home",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 30,
+    "text": "Actually, Let us eat together.",
+    "category": "at_home",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 31,
+    "text": "Right now, Please close the door.",
+    "category": "at_home",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 32,
+    "text": "Right now, I am going to clean my room.",
+    "category": "at_home",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 33,
+    "text": "Right now, Can you help me for a minute?",
+    "category": "at_home",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 34,
+    "text": "Right now, I need some rest.",
+    "category": "at_home",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 35,
+    "text": "Right now, Please turn off the light.",
+    "category": "at_home",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 36,
+    "text": "Right now, I will be ready soon.",
+    "category": "at_home",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 37,
+    "text": "Right now, Where is my phone?",
+    "category": "at_home",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 38,
+    "text": "Right now, Let us eat together.",
+    "category": "at_home",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 39,
+    "text": "I have a class today.",
+    "category": "college",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 40,
+    "text": "Please share the notes.",
+    "category": "college",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 41,
+    "text": "I need to submit my assignment.",
+    "category": "college",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 42,
+    "text": "Can you explain this topic?",
+    "category": "college",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 43,
+    "text": "The teacher is coming.",
+    "category": "college",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 44,
+    "text": "I forgot my notebook.",
+    "category": "college",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 45,
+    "text": "Let us study together.",
+    "category": "college",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 46,
+    "text": "I have a presentation today.",
+    "category": "college",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 47,
+    "text": "Please, I have a class today.",
+    "category": "college",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 48,
+    "text": "Please, I need to submit my assignment.",
+    "category": "college",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 49,
+    "text": "Please, Can you explain this topic?",
+    "category": "college",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 50,
+    "text": "Please, The teacher is coming.",
+    "category": "college",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 51,
+    "text": "Please, I forgot my notebook.",
+    "category": "college",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 52,
+    "text": "Please, Let us study together.",
+    "category": "college",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 53,
+    "text": "Please, I have a presentation today.",
+    "category": "college",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 54,
+    "text": "Today, I have a class today.",
+    "category": "college",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 55,
+    "text": "Today, Please share the notes.",
+    "category": "college",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 56,
+    "text": "Today, I need to submit my assignment.",
+    "category": "college",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 57,
+    "text": "Today, Can you explain this topic?",
+    "category": "college",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 58,
+    "text": "Today, The teacher is coming.",
+    "category": "college",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 59,
+    "text": "Today, I forgot my notebook.",
+    "category": "college",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 60,
+    "text": "Today, Let us study together.",
+    "category": "college",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 61,
+    "text": "Today, I have a presentation today.",
+    "category": "college",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 62,
+    "text": "Actually, I have a class today.",
+    "category": "college",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 63,
+    "text": "Actually, Please share the notes.",
+    "category": "college",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 64,
+    "text": "Actually, I need to submit my assignment.",
+    "category": "college",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 65,
+    "text": "Actually, Can you explain this topic?",
+    "category": "college",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 66,
+    "text": "Actually, The teacher is coming.",
+    "category": "college",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 67,
+    "text": "Actually, I forgot my notebook.",
+    "category": "college",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 68,
+    "text": "Actually, Let us study together.",
+    "category": "college",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 69,
+    "text": "Actually, I have a presentation today.",
+    "category": "college",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 70,
+    "text": "Right now, I have a class today.",
+    "category": "college",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 71,
+    "text": "Right now, Please share the notes.",
+    "category": "college",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 72,
+    "text": "Right now, I need to submit my assignment.",
+    "category": "college",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 73,
+    "text": "Right now, Can you explain this topic?",
+    "category": "college",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 74,
+    "text": "Right now, The teacher is coming.",
+    "category": "college",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 75,
+    "text": "Right now, I forgot my notebook.",
+    "category": "college",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 76,
+    "text": "Right now, Let us study together.",
+    "category": "college",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 77,
+    "text": "Right now, I have a presentation today.",
+    "category": "college",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 78,
+    "text": "Can you hear me?",
+    "category": "phone_call",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 79,
+    "text": "Please speak slowly.",
+    "category": "phone_call",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 80,
+    "text": "I will call you later.",
+    "category": "phone_call",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 81,
+    "text": "The network is weak.",
+    "category": "phone_call",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 82,
+    "text": "Please send me the address.",
+    "category": "phone_call",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 83,
+    "text": "I missed your call.",
+    "category": "phone_call",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 84,
+    "text": "Can you repeat that?",
+    "category": "phone_call",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 85,
+    "text": "I am busy right now.",
+    "category": "phone_call",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 86,
+    "text": "Please, Can you hear me?",
+    "category": "phone_call",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 87,
+    "text": "Please, I will call you later.",
+    "category": "phone_call",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 88,
+    "text": "Please, The network is weak.",
+    "category": "phone_call",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 89,
+    "text": "Please, I missed your call.",
+    "category": "phone_call",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 90,
+    "text": "Please, Can you repeat that?",
+    "category": "phone_call",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 91,
+    "text": "Please, I am busy right now.",
+    "category": "phone_call",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 92,
+    "text": "Today, Can you hear me?",
+    "category": "phone_call",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 93,
+    "text": "Today, Please speak slowly.",
+    "category": "phone_call",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 94,
+    "text": "Today, I will call you later.",
+    "category": "phone_call",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 95,
+    "text": "Today, The network is weak.",
+    "category": "phone_call",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 96,
+    "text": "Today, Please send me the address.",
+    "category": "phone_call",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 97,
+    "text": "Today, I missed your call.",
+    "category": "phone_call",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 98,
+    "text": "Today, Can you repeat that?",
+    "category": "phone_call",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 99,
+    "text": "Today, I am busy right now.",
+    "category": "phone_call",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 100,
+    "text": "Actually, Can you hear me?",
+    "category": "phone_call",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 101,
+    "text": "Actually, Please speak slowly.",
+    "category": "phone_call",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 102,
+    "text": "Actually, I will call you later.",
+    "category": "phone_call",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 103,
+    "text": "Actually, The network is weak.",
+    "category": "phone_call",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 104,
+    "text": "Actually, Please send me the address.",
+    "category": "phone_call",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 105,
+    "text": "Actually, I missed your call.",
+    "category": "phone_call",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 106,
+    "text": "Actually, Can you repeat that?",
+    "category": "phone_call",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 107,
+    "text": "Actually, I am busy right now.",
+    "category": "phone_call",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 108,
+    "text": "Right now, Can you hear me?",
+    "category": "phone_call",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 109,
+    "text": "Right now, Please speak slowly.",
+    "category": "phone_call",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 110,
+    "text": "Right now, I will call you later.",
+    "category": "phone_call",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 111,
+    "text": "Right now, The network is weak.",
+    "category": "phone_call",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 112,
+    "text": "Right now, Please send me the address.",
+    "category": "phone_call",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 113,
+    "text": "Right now, I missed your call.",
+    "category": "phone_call",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 114,
+    "text": "Right now, Can you repeat that?",
+    "category": "phone_call",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 115,
+    "text": "Right now, I am busy right now.",
+    "category": "phone_call",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 116,
+    "text": "Thank you for this opportunity.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 117,
+    "text": "I am ready to learn.",
+    "category": "interview",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 118,
+    "text": "I can work in a team.",
+    "category": "interview",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 119,
+    "text": "I am hardworking.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 120,
+    "text": "I want to improve myself.",
+    "category": "interview",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 121,
+    "text": "I can handle responsibility.",
+    "category": "interview",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 122,
+    "text": "I am comfortable with new tools.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 123,
+    "text": "I will give my best.",
+    "category": "interview",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 124,
+    "text": "Please, Thank you for this opportunity.",
+    "category": "interview",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 125,
+    "text": "Please, I am ready to learn.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 126,
+    "text": "Please, I can work in a team.",
+    "category": "interview",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 127,
+    "text": "Please, I am hardworking.",
+    "category": "interview",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 128,
+    "text": "Please, I want to improve myself.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 129,
+    "text": "Please, I can handle responsibility.",
+    "category": "interview",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 130,
+    "text": "Please, I am comfortable with new tools.",
+    "category": "interview",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 131,
+    "text": "Please, I will give my best.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 132,
+    "text": "Today, Thank you for this opportunity.",
+    "category": "interview",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 133,
+    "text": "Today, I am ready to learn.",
+    "category": "interview",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 134,
+    "text": "Today, I can work in a team.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 135,
+    "text": "Today, I am hardworking.",
+    "category": "interview",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 136,
+    "text": "Today, I want to improve myself.",
+    "category": "interview",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 137,
+    "text": "Today, I can handle responsibility.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 138,
+    "text": "Today, I am comfortable with new tools.",
+    "category": "interview",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 139,
+    "text": "Today, I will give my best.",
+    "category": "interview",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 140,
+    "text": "Actually, Thank you for this opportunity.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 141,
+    "text": "Actually, I am ready to learn.",
+    "category": "interview",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 142,
+    "text": "Actually, I can work in a team.",
+    "category": "interview",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 143,
+    "text": "Actually, I am hardworking.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 144,
+    "text": "Actually, I want to improve myself.",
+    "category": "interview",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 145,
+    "text": "Actually, I can handle responsibility.",
+    "category": "interview",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 146,
+    "text": "Actually, I am comfortable with new tools.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 147,
+    "text": "Actually, I will give my best.",
+    "category": "interview",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 148,
+    "text": "Right now, Thank you for this opportunity.",
+    "category": "interview",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 149,
+    "text": "Right now, I am ready to learn.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 150,
+    "text": "Right now, I can work in a team.",
+    "category": "interview",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 151,
+    "text": "Right now, I am hardworking.",
+    "category": "interview",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 152,
+    "text": "Right now, I want to improve myself.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 153,
+    "text": "Right now, I can handle responsibility.",
+    "category": "interview",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 154,
+    "text": "Right now, I am comfortable with new tools.",
+    "category": "interview",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 155,
+    "text": "Right now, I will give my best.",
+    "category": "interview",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 156,
+    "text": "How much is this?",
+    "category": "shop",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 157,
+    "text": "Please show me another one.",
+    "category": "shop",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 158,
+    "text": "Do you have a smaller size?",
+    "category": "shop",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 159,
+    "text": "Can I pay online?",
+    "category": "shop",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 160,
+    "text": "Please pack this.",
+    "category": "shop",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 161,
+    "text": "This is too expensive.",
+    "category": "shop",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 162,
+    "text": "I want to buy this.",
+    "category": "shop",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 163,
+    "text": "Can you give me a discount?",
+    "category": "shop",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 164,
+    "text": "Please, How much is this?",
+    "category": "shop",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 165,
+    "text": "Please, Do you have a smaller size?",
+    "category": "shop",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 166,
+    "text": "Please, Can I pay online?",
+    "category": "shop",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 167,
+    "text": "Please, This is too expensive.",
+    "category": "shop",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 168,
+    "text": "Please, I want to buy this.",
+    "category": "shop",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 169,
+    "text": "Please, Can you give me a discount?",
+    "category": "shop",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 170,
+    "text": "Today, How much is this?",
+    "category": "shop",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 171,
+    "text": "Today, Please show me another one.",
+    "category": "shop",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 172,
+    "text": "Today, Do you have a smaller size?",
+    "category": "shop",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 173,
+    "text": "Today, Can I pay online?",
+    "category": "shop",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 174,
+    "text": "Today, Please pack this.",
+    "category": "shop",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 175,
+    "text": "Today, This is too expensive.",
+    "category": "shop",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 176,
+    "text": "Today, I want to buy this.",
+    "category": "shop",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 177,
+    "text": "Today, Can you give me a discount?",
+    "category": "shop",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 178,
+    "text": "Actually, How much is this?",
+    "category": "shop",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 179,
+    "text": "Actually, Please show me another one.",
+    "category": "shop",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 180,
+    "text": "Actually, Do you have a smaller size?",
+    "category": "shop",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 181,
+    "text": "Actually, Can I pay online?",
+    "category": "shop",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 182,
+    "text": "Actually, Please pack this.",
+    "category": "shop",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 183,
+    "text": "Actually, This is too expensive.",
+    "category": "shop",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 184,
+    "text": "Actually, I want to buy this.",
+    "category": "shop",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 185,
+    "text": "Actually, Can you give me a discount?",
+    "category": "shop",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 186,
+    "text": "Right now, How much is this?",
+    "category": "shop",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 187,
+    "text": "Right now, Please show me another one.",
+    "category": "shop",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 188,
+    "text": "Right now, Do you have a smaller size?",
+    "category": "shop",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 189,
+    "text": "Right now, Can I pay online?",
+    "category": "shop",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 190,
+    "text": "Right now, Please pack this.",
+    "category": "shop",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 191,
+    "text": "Right now, This is too expensive.",
+    "category": "shop",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 192,
+    "text": "Right now, I want to buy this.",
+    "category": "shop",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 193,
+    "text": "Right now, Can you give me a discount?",
+    "category": "shop",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 194,
+    "text": "Where is the station?",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 195,
+    "text": "How far is it?",
+    "category": "travel",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 196,
+    "text": "Please stop here.",
+    "category": "travel",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 197,
+    "text": "I need a ticket.",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 198,
+    "text": "Which way should I go?",
+    "category": "travel",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 199,
+    "text": "I am new here.",
+    "category": "travel",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 200,
+    "text": "Can you help me with this route?",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 201,
+    "text": "I need to reach on time.",
+    "category": "travel",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 202,
+    "text": "Please, Where is the station?",
+    "category": "travel",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 203,
+    "text": "Please, How far is it?",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 204,
+    "text": "Please, I need a ticket.",
+    "category": "travel",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 205,
+    "text": "Please, Which way should I go?",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 206,
+    "text": "Please, I am new here.",
+    "category": "travel",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 207,
+    "text": "Please, Can you help me with this route?",
+    "category": "travel",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 208,
+    "text": "Please, I need to reach on time.",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 209,
+    "text": "Today, Where is the station?",
+    "category": "travel",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 210,
+    "text": "Today, How far is it?",
+    "category": "travel",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 211,
+    "text": "Today, Please stop here.",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 212,
+    "text": "Today, I need a ticket.",
+    "category": "travel",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 213,
+    "text": "Today, Which way should I go?",
+    "category": "travel",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 214,
+    "text": "Today, I am new here.",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 215,
+    "text": "Today, Can you help me with this route?",
+    "category": "travel",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 216,
+    "text": "Today, I need to reach on time.",
+    "category": "travel",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 217,
+    "text": "Actually, Where is the station?",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 218,
+    "text": "Actually, How far is it?",
+    "category": "travel",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 219,
+    "text": "Actually, Please stop here.",
+    "category": "travel",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 220,
+    "text": "Actually, I need a ticket.",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 221,
+    "text": "Actually, Which way should I go?",
+    "category": "travel",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 222,
+    "text": "Actually, I am new here.",
+    "category": "travel",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 223,
+    "text": "Actually, Can you help me with this route?",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 224,
+    "text": "Actually, I need to reach on time.",
+    "category": "travel",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 225,
+    "text": "Right now, Where is the station?",
+    "category": "travel",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 226,
+    "text": "Right now, How far is it?",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 227,
+    "text": "Right now, Please stop here.",
+    "category": "travel",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 228,
+    "text": "Right now, I need a ticket.",
+    "category": "travel",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 229,
+    "text": "Right now, Which way should I go?",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 230,
+    "text": "Right now, I am new here.",
+    "category": "travel",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 231,
+    "text": "Right now, Can you help me with this route?",
+    "category": "travel",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 232,
+    "text": "Right now, I need to reach on time.",
+    "category": "travel",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 233,
+    "text": "How are you?",
+    "category": "friends",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 234,
+    "text": "What are you doing?",
+    "category": "friends",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 235,
+    "text": "Let us meet today.",
+    "category": "friends",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 236,
+    "text": "That sounds good.",
+    "category": "friends",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 237,
+    "text": "I am happy to see you.",
+    "category": "friends",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 238,
+    "text": "Please wait for me.",
+    "category": "friends",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 239,
+    "text": "Let us talk for a while.",
+    "category": "friends",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 240,
+    "text": "Please, How are you?",
+    "category": "friends",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 241,
+    "text": "Please, What are you doing?",
+    "category": "friends",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 242,
+    "text": "Please, Let us meet today.",
+    "category": "friends",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 243,
+    "text": "Please, That sounds good.",
+    "category": "friends",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 244,
+    "text": "Please, I am happy to see you.",
+    "category": "friends",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 245,
+    "text": "Please, Let us talk for a while.",
+    "category": "friends",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 246,
+    "text": "Today, How are you?",
+    "category": "friends",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 247,
+    "text": "Today, What are you doing?",
+    "category": "friends",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 248,
+    "text": "Today, Let us meet today.",
+    "category": "friends",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 249,
+    "text": "Today, That sounds good.",
+    "category": "friends",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 250,
+    "text": "Today, I am happy to see you.",
+    "category": "friends",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 251,
+    "text": "Today, Please wait for me.",
+    "category": "friends",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 252,
+    "text": "Today, Let us talk for a while.",
+    "category": "friends",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 253,
+    "text": "Actually, How are you?",
+    "category": "friends",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 254,
+    "text": "Actually, What are you doing?",
+    "category": "friends",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 255,
+    "text": "Actually, Let us meet today.",
+    "category": "friends",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 256,
+    "text": "Actually, That sounds good.",
+    "category": "friends",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 257,
+    "text": "Actually, I am happy to see you.",
+    "category": "friends",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 258,
+    "text": "Actually, Please wait for me.",
+    "category": "friends",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 259,
+    "text": "Actually, Let us talk for a while.",
+    "category": "friends",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 260,
+    "text": "Right now, How are you?",
+    "category": "friends",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 261,
+    "text": "Right now, What are you doing?",
+    "category": "friends",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 262,
+    "text": "Right now, Let us meet today.",
+    "category": "friends",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 263,
+    "text": "Right now, That sounds good.",
+    "category": "friends",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 264,
+    "text": "Right now, I am happy to see you.",
+    "category": "friends",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 265,
+    "text": "Right now, Please wait for me.",
+    "category": "friends",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 266,
+    "text": "Right now, Let us talk for a while.",
+    "category": "friends",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 267,
+    "text": "I will send the file.",
+    "category": "office",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 268,
+    "text": "Please check this once.",
+    "category": "office",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 269,
+    "text": "The meeting will start soon.",
+    "category": "office",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 270,
+    "text": "I need your feedback.",
+    "category": "office",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 271,
+    "text": "This work is almost done.",
+    "category": "office",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 272,
+    "text": "Let us discuss the plan.",
+    "category": "office",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 273,
+    "text": "I will update you soon.",
+    "category": "office",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 274,
+    "text": "Please review the report.",
+    "category": "office",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 275,
+    "text": "Please, I will send the file.",
+    "category": "office",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 276,
+    "text": "Please, The meeting will start soon.",
+    "category": "office",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 277,
+    "text": "Please, I need your feedback.",
+    "category": "office",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 278,
+    "text": "Please, This work is almost done.",
+    "category": "office",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 279,
+    "text": "Please, Let us discuss the plan.",
+    "category": "office",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 280,
+    "text": "Please, I will update you soon.",
+    "category": "office",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 281,
+    "text": "Today, I will send the file.",
+    "category": "office",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 282,
+    "text": "Today, Please check this once.",
+    "category": "office",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 283,
+    "text": "Today, The meeting will start soon.",
+    "category": "office",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 284,
+    "text": "Today, I need your feedback.",
+    "category": "office",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 285,
+    "text": "Today, This work is almost done.",
+    "category": "office",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 286,
+    "text": "Today, Let us discuss the plan.",
+    "category": "office",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 287,
+    "text": "Today, I will update you soon.",
+    "category": "office",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 288,
+    "text": "Today, Please review the report.",
+    "category": "office",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 289,
+    "text": "Actually, I will send the file.",
+    "category": "office",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 290,
+    "text": "Actually, Please check this once.",
+    "category": "office",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 291,
+    "text": "Actually, The meeting will start soon.",
+    "category": "office",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 292,
+    "text": "Actually, I need your feedback.",
+    "category": "office",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 293,
+    "text": "Actually, This work is almost done.",
+    "category": "office",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 294,
+    "text": "Actually, Let us discuss the plan.",
+    "category": "office",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 295,
+    "text": "Actually, I will update you soon.",
+    "category": "office",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 296,
+    "text": "Actually, Please review the report.",
+    "category": "office",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 297,
+    "text": "Right now, I will send the file.",
+    "category": "office",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 298,
+    "text": "Right now, Please check this once.",
+    "category": "office",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 299,
+    "text": "Right now, The meeting will start soon.",
+    "category": "office",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 300,
+    "text": "Right now, I need your feedback.",
+    "category": "office",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 301,
+    "text": "Right now, This work is almost done.",
+    "category": "office",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 302,
+    "text": "Right now, Let us discuss the plan.",
+    "category": "office",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 303,
+    "text": "Right now, I will update you soon.",
+    "category": "office",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 304,
+    "text": "Right now, Please review the report.",
+    "category": "office",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 305,
+    "text": "Please listen to me.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 306,
+    "text": "I am sorry.",
+    "category": "family",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 307,
+    "text": "Thank you for helping me.",
+    "category": "family",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 308,
+    "text": "Let us talk calmly.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 309,
+    "text": "I will help you.",
+    "category": "family",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 310,
+    "text": "Please take care.",
+    "category": "family",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 311,
+    "text": "I am going outside.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 312,
+    "text": "I will come back soon.",
+    "category": "family",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 313,
+    "text": "Please, I am sorry.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 314,
+    "text": "Please, Thank you for helping me.",
+    "category": "family",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 315,
+    "text": "Please, Let us talk calmly.",
+    "category": "family",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 316,
+    "text": "Please, I will help you.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 317,
+    "text": "Please, I am going outside.",
+    "category": "family",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 318,
+    "text": "Please, I will come back soon.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 319,
+    "text": "Today, Please listen to me.",
+    "category": "family",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 320,
+    "text": "Today, I am sorry.",
+    "category": "family",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 321,
+    "text": "Today, Thank you for helping me.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 322,
+    "text": "Today, Let us talk calmly.",
+    "category": "family",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 323,
+    "text": "Today, I will help you.",
+    "category": "family",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 324,
+    "text": "Today, Please take care.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 325,
+    "text": "Today, I am going outside.",
+    "category": "family",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 326,
+    "text": "Today, I will come back soon.",
+    "category": "family",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 327,
+    "text": "Actually, Please listen to me.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 328,
+    "text": "Actually, I am sorry.",
+    "category": "family",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 329,
+    "text": "Actually, Thank you for helping me.",
+    "category": "family",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 330,
+    "text": "Actually, Let us talk calmly.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 331,
+    "text": "Actually, I will help you.",
+    "category": "family",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 332,
+    "text": "Actually, Please take care.",
+    "category": "family",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 333,
+    "text": "Actually, I am going outside.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 334,
+    "text": "Actually, I will come back soon.",
+    "category": "family",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 335,
+    "text": "Right now, Please listen to me.",
+    "category": "family",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 336,
+    "text": "Right now, I am sorry.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 337,
+    "text": "Right now, Thank you for helping me.",
+    "category": "family",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 338,
+    "text": "Right now, Let us talk calmly.",
+    "category": "family",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 339,
+    "text": "Right now, I will help you.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 340,
+    "text": "Right now, Please take care.",
+    "category": "family",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 341,
+    "text": "Right now, I am going outside.",
+    "category": "family",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 342,
+    "text": "Right now, I will come back soon.",
+    "category": "family",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 343,
+    "text": "Let us start the meeting.",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 344,
+    "text": "I have one question.",
+    "category": "meeting",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 345,
+    "text": "Please explain the point.",
+    "category": "meeting",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 346,
+    "text": "I agree with you.",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 347,
+    "text": "Let us decide today.",
+    "category": "meeting",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 348,
+    "text": "Can we move to the next point?",
+    "category": "meeting",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 349,
+    "text": "Please send the summary.",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 350,
+    "text": "The plan looks good.",
+    "category": "meeting",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 351,
+    "text": "Please, Let us start the meeting.",
+    "category": "meeting",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 352,
+    "text": "Please, I have one question.",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 353,
+    "text": "Please, I agree with you.",
+    "category": "meeting",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 354,
+    "text": "Please, Let us decide today.",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 355,
+    "text": "Please, Can we move to the next point?",
+    "category": "meeting",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 356,
+    "text": "Please, The plan looks good.",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 357,
+    "text": "Today, Let us start the meeting.",
+    "category": "meeting",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 358,
+    "text": "Today, I have one question.",
+    "category": "meeting",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 359,
+    "text": "Today, Please explain the point.",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 360,
+    "text": "Today, I agree with you.",
+    "category": "meeting",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 361,
+    "text": "Today, Let us decide today.",
+    "category": "meeting",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 362,
+    "text": "Today, Can we move to the next point?",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 363,
+    "text": "Today, Please send the summary.",
+    "category": "meeting",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 364,
+    "text": "Today, The plan looks good.",
+    "category": "meeting",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 365,
+    "text": "Actually, Let us start the meeting.",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 366,
+    "text": "Actually, I have one question.",
+    "category": "meeting",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 367,
+    "text": "Actually, Please explain the point.",
+    "category": "meeting",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 368,
+    "text": "Actually, I agree with you.",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 369,
+    "text": "Actually, Let us decide today.",
+    "category": "meeting",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 370,
+    "text": "Actually, Can we move to the next point?",
+    "category": "meeting",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 371,
+    "text": "Actually, Please send the summary.",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 372,
+    "text": "Actually, The plan looks good.",
+    "category": "meeting",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 373,
+    "text": "Right now, Let us start the meeting.",
+    "category": "meeting",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 374,
+    "text": "Right now, I have one question.",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 375,
+    "text": "Right now, Please explain the point.",
+    "category": "meeting",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 376,
+    "text": "Right now, I agree with you.",
+    "category": "meeting",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 377,
+    "text": "Right now, Let us decide today.",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 378,
+    "text": "Right now, Can we move to the next point?",
+    "category": "meeting",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 379,
+    "text": "Right now, Please send the summary.",
+    "category": "meeting",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 380,
+    "text": "Right now, The plan looks good.",
+    "category": "meeting",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 381,
+    "text": "Please bring the menu.",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 382,
+    "text": "I want some water.",
+    "category": "restaurant",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 383,
+    "text": "This food is good.",
+    "category": "restaurant",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 384,
+    "text": "Please make it less spicy.",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 385,
+    "text": "Can I get the bill?",
+    "category": "restaurant",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 386,
+    "text": "I would like to order.",
+    "category": "restaurant",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 387,
+    "text": "Please pack the food.",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 388,
+    "text": "Do you have tea?",
+    "category": "restaurant",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 389,
+    "text": "Please, I want some water.",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 390,
+    "text": "Please, This food is good.",
+    "category": "restaurant",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 391,
+    "text": "Please, Can I get the bill?",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 392,
+    "text": "Please, I would like to order.",
+    "category": "restaurant",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 393,
+    "text": "Please, Do you have tea?",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 394,
+    "text": "Today, Please bring the menu.",
+    "category": "restaurant",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 395,
+    "text": "Today, I want some water.",
+    "category": "restaurant",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 396,
+    "text": "Today, This food is good.",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 397,
+    "text": "Today, Please make it less spicy.",
+    "category": "restaurant",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 398,
+    "text": "Today, Can I get the bill?",
+    "category": "restaurant",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 399,
+    "text": "Today, I would like to order.",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 400,
+    "text": "Today, Please pack the food.",
+    "category": "restaurant",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 401,
+    "text": "Today, Do you have tea?",
+    "category": "restaurant",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 402,
+    "text": "Actually, Please bring the menu.",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 403,
+    "text": "Actually, I want some water.",
+    "category": "restaurant",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 404,
+    "text": "Actually, This food is good.",
+    "category": "restaurant",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 405,
+    "text": "Actually, Please make it less spicy.",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 406,
+    "text": "Actually, Can I get the bill?",
+    "category": "restaurant",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 407,
+    "text": "Actually, I would like to order.",
+    "category": "restaurant",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 408,
+    "text": "Actually, Please pack the food.",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 409,
+    "text": "Actually, Do you have tea?",
+    "category": "restaurant",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 410,
+    "text": "Right now, Please bring the menu.",
+    "category": "restaurant",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 411,
+    "text": "Right now, I want some water.",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 412,
+    "text": "Right now, This food is good.",
+    "category": "restaurant",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 413,
+    "text": "Right now, Please make it less spicy.",
+    "category": "restaurant",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 414,
+    "text": "Right now, Can I get the bill?",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 415,
+    "text": "Right now, I would like to order.",
+    "category": "restaurant",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 416,
+    "text": "Right now, Please pack the food.",
+    "category": "restaurant",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 417,
+    "text": "Right now, Do you have tea?",
+    "category": "restaurant",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 418,
+    "text": "Nice to meet you.",
+    "category": "social",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 419,
+    "text": "Where are you from?",
+    "category": "social",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 420,
+    "text": "What do you do?",
+    "category": "social",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 421,
+    "text": "That is interesting.",
+    "category": "social",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 422,
+    "text": "I like your idea.",
+    "category": "social",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 423,
+    "text": "Please tell me more.",
+    "category": "social",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 424,
+    "text": "Let us stay in touch.",
+    "category": "social",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 425,
+    "text": "It was nice talking to you.",
+    "category": "social",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 426,
+    "text": "Please, Nice to meet you.",
+    "category": "social",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 427,
+    "text": "Please, Where are you from?",
+    "category": "social",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 428,
+    "text": "Please, What do you do?",
+    "category": "social",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 429,
+    "text": "Please, That is interesting.",
+    "category": "social",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 430,
+    "text": "Please, I like your idea.",
+    "category": "social",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 431,
+    "text": "Please, Let us stay in touch.",
+    "category": "social",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 432,
+    "text": "Please, It was nice talking to you.",
+    "category": "social",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 433,
+    "text": "Today, Nice to meet you.",
+    "category": "social",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 434,
+    "text": "Today, Where are you from?",
+    "category": "social",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 435,
+    "text": "Today, What do you do?",
+    "category": "social",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 436,
+    "text": "Today, That is interesting.",
+    "category": "social",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 437,
+    "text": "Today, I like your idea.",
+    "category": "social",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 438,
+    "text": "Today, Please tell me more.",
+    "category": "social",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 439,
+    "text": "Today, Let us stay in touch.",
+    "category": "social",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 440,
+    "text": "Today, It was nice talking to you.",
+    "category": "social",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 441,
+    "text": "Actually, Nice to meet you.",
+    "category": "social",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 442,
+    "text": "Actually, Where are you from?",
+    "category": "social",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 443,
+    "text": "Actually, What do you do?",
+    "category": "social",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 444,
+    "text": "Actually, That is interesting.",
+    "category": "social",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 445,
+    "text": "Actually, I like your idea.",
+    "category": "social",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 446,
+    "text": "Actually, Please tell me more.",
+    "category": "social",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 447,
+    "text": "Actually, Let us stay in touch.",
+    "category": "social",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 448,
+    "text": "Actually, It was nice talking to you.",
+    "category": "social",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 449,
+    "text": "Right now, Nice to meet you.",
+    "category": "social",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 450,
+    "text": "Right now, Where are you from?",
+    "category": "social",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 451,
+    "text": "Right now, What do you do?",
+    "category": "social",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 452,
+    "text": "Right now, That is interesting.",
+    "category": "social",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 453,
+    "text": "Right now, I like your idea.",
+    "category": "social",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 454,
+    "text": "Right now, Please tell me more.",
+    "category": "social",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 455,
+    "text": "Right now, Let us stay in touch.",
+    "category": "social",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 456,
+    "text": "Right now, It was nice talking to you.",
+    "category": "social",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 457,
+    "text": "I can speak English.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 458,
+    "text": "I am improving every day.",
+    "category": "confidence",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 459,
+    "text": "Mistakes are normal.",
+    "category": "confidence",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 460,
+    "text": "I will keep practicing.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 461,
+    "text": "I feel more confident.",
+    "category": "confidence",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 462,
+    "text": "I can do this.",
+    "category": "confidence",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 463,
+    "text": "I am learning slowly.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 464,
+    "text": "Practice makes me better.",
+    "category": "confidence",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 465,
+    "text": "Please, I can speak English.",
+    "category": "confidence",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 466,
+    "text": "Please, I am improving every day.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 467,
+    "text": "Please, Mistakes are normal.",
+    "category": "confidence",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 468,
+    "text": "Please, I will keep practicing.",
+    "category": "confidence",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 469,
+    "text": "Please, I feel more confident.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 470,
+    "text": "Please, I can do this.",
+    "category": "confidence",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 471,
+    "text": "Please, I am learning slowly.",
+    "category": "confidence",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 472,
+    "text": "Please, Practice makes me better.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 473,
+    "text": "Today, I can speak English.",
+    "category": "confidence",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 474,
+    "text": "Today, I am improving every day.",
+    "category": "confidence",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 475,
+    "text": "Today, Mistakes are normal.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 476,
+    "text": "Today, I will keep practicing.",
+    "category": "confidence",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 477,
+    "text": "Today, I feel more confident.",
+    "category": "confidence",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 478,
+    "text": "Today, I can do this.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 479,
+    "text": "Today, I am learning slowly.",
+    "category": "confidence",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 480,
+    "text": "Today, Practice makes me better.",
+    "category": "confidence",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 481,
+    "text": "Actually, I can speak English.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 482,
+    "text": "Actually, I am improving every day.",
+    "category": "confidence",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 483,
+    "text": "Actually, Mistakes are normal.",
+    "category": "confidence",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 484,
+    "text": "Actually, I will keep practicing.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 485,
+    "text": "Actually, I feel more confident.",
+    "category": "confidence",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 486,
+    "text": "Actually, I can do this.",
+    "category": "confidence",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 487,
+    "text": "Actually, I am learning slowly.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 488,
+    "text": "Actually, Practice makes me better.",
+    "category": "confidence",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 489,
+    "text": "Right now, I can speak English.",
+    "category": "confidence",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 490,
+    "text": "Right now, I am improving every day.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 491,
+    "text": "Right now, Mistakes are normal.",
+    "category": "confidence",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 492,
+    "text": "Right now, I will keep practicing.",
+    "category": "confidence",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 493,
+    "text": "Right now, I feel more confident.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 494,
+    "text": "Right now, I can do this.",
+    "category": "confidence",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 495,
+    "text": "Right now, I am learning slowly.",
+    "category": "confidence",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 496,
+    "text": "Right now, Practice makes me better.",
+    "category": "confidence",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 497,
+    "text": "I need a doctor.",
+    "category": "hospital",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 498,
+    "text": "I am not feeling well.",
+    "category": "hospital",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 499,
+    "text": "Where is the reception?",
+    "category": "hospital",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 500,
+    "text": "Please call the nurse.",
+    "category": "hospital",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 501,
+    "text": "I need medicine.",
+    "category": "hospital",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 502,
+    "text": "I have an appointment.",
+    "category": "hospital",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 503,
+    "text": "Can you help me?",
+    "category": "hospital",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 504,
+    "text": "Please explain the medicine.",
+    "category": "hospital",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 505,
+    "text": "Please, I need a doctor.",
+    "category": "hospital",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 506,
+    "text": "Please, I am not feeling well.",
+    "category": "hospital",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 507,
+    "text": "Please, Where is the reception?",
+    "category": "hospital",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 508,
+    "text": "Please, I need medicine.",
+    "category": "hospital",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 509,
+    "text": "Please, I have an appointment.",
+    "category": "hospital",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 510,
+    "text": "Please, Can you help me?",
+    "category": "hospital",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 511,
+    "text": "Today, I need a doctor.",
+    "category": "hospital",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 512,
+    "text": "Today, I am not feeling well.",
+    "category": "hospital",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 513,
+    "text": "Today, Where is the reception?",
+    "category": "hospital",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 514,
+    "text": "Today, Please call the nurse.",
+    "category": "hospital",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 515,
+    "text": "Today, I need medicine.",
+    "category": "hospital",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 516,
+    "text": "Today, I have an appointment.",
+    "category": "hospital",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 517,
+    "text": "Today, Can you help me?",
+    "category": "hospital",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 518,
+    "text": "Today, Please explain the medicine.",
+    "category": "hospital",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 519,
+    "text": "Actually, I need a doctor.",
+    "category": "hospital",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 520,
+    "text": "Actually, I am not feeling well.",
+    "category": "hospital",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 521,
+    "text": "Actually, Where is the reception?",
+    "category": "hospital",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 522,
+    "text": "Actually, Please call the nurse.",
+    "category": "hospital",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 523,
+    "text": "Actually, I need medicine.",
+    "category": "hospital",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 524,
+    "text": "Actually, I have an appointment.",
+    "category": "hospital",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 525,
+    "text": "Actually, Can you help me?",
+    "category": "hospital",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 526,
+    "text": "Actually, Please explain the medicine.",
+    "category": "hospital",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 527,
+    "text": "Right now, I need a doctor.",
+    "category": "hospital",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 528,
+    "text": "Right now, I am not feeling well.",
+    "category": "hospital",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 529,
+    "text": "Right now, Where is the reception?",
+    "category": "hospital",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 530,
+    "text": "Right now, Please call the nurse.",
+    "category": "hospital",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 531,
+    "text": "Right now, I need medicine.",
+    "category": "hospital",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 532,
+    "text": "Right now, I have an appointment.",
+    "category": "hospital",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 533,
+    "text": "Right now, Can you help me?",
+    "category": "hospital",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 534,
+    "text": "Right now, Please explain the medicine.",
+    "category": "hospital",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 535,
+    "text": "I need to open an account.",
+    "category": "bank",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 536,
+    "text": "Please help me with this form.",
+    "category": "bank",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 537,
+    "text": "I want to deposit money.",
+    "category": "bank",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 538,
+    "text": "I need my bank statement.",
+    "category": "bank",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 539,
+    "text": "Can I do this online?",
+    "category": "bank",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 540,
+    "text": "Please update my number.",
+    "category": "bank",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 541,
+    "text": "Where is the cash counter?",
+    "category": "bank",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 542,
+    "text": "What documents are required?",
+    "category": "bank",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 543,
+    "text": "Please, I need to open an account.",
+    "category": "bank",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 544,
+    "text": "Please, I want to deposit money.",
+    "category": "bank",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 545,
+    "text": "Please, I need my bank statement.",
+    "category": "bank",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 546,
+    "text": "Please, Can I do this online?",
+    "category": "bank",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 547,
+    "text": "Please, Where is the cash counter?",
+    "category": "bank",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 548,
+    "text": "Please, What documents are required?",
+    "category": "bank",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 549,
+    "text": "Today, I need to open an account.",
+    "category": "bank",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 550,
+    "text": "Today, Please help me with this form.",
+    "category": "bank",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 551,
+    "text": "Today, I want to deposit money.",
+    "category": "bank",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 552,
+    "text": "Today, I need my bank statement.",
+    "category": "bank",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 553,
+    "text": "Today, Can I do this online?",
+    "category": "bank",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 554,
+    "text": "Today, Please update my number.",
+    "category": "bank",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 555,
+    "text": "Today, Where is the cash counter?",
+    "category": "bank",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 556,
+    "text": "Today, What documents are required?",
+    "category": "bank",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 557,
+    "text": "Actually, I need to open an account.",
+    "category": "bank",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 558,
+    "text": "Actually, Please help me with this form.",
+    "category": "bank",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 559,
+    "text": "Actually, I want to deposit money.",
+    "category": "bank",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 560,
+    "text": "Actually, I need my bank statement.",
+    "category": "bank",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 561,
+    "text": "Actually, Can I do this online?",
+    "category": "bank",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 562,
+    "text": "Actually, Please update my number.",
+    "category": "bank",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 563,
+    "text": "Actually, Where is the cash counter?",
+    "category": "bank",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 564,
+    "text": "Actually, What documents are required?",
+    "category": "bank",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 565,
+    "text": "Right now, I need to open an account.",
+    "category": "bank",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 566,
+    "text": "Right now, Please help me with this form.",
+    "category": "bank",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 567,
+    "text": "Right now, I want to deposit money.",
+    "category": "bank",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 568,
+    "text": "Right now, I need my bank statement.",
+    "category": "bank",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 569,
+    "text": "Right now, Can I do this online?",
+    "category": "bank",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 570,
+    "text": "Right now, Please update my number.",
+    "category": "bank",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 571,
+    "text": "Right now, Where is the cash counter?",
+    "category": "bank",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 572,
+    "text": "Right now, What documents are required?",
+    "category": "bank",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 573,
+    "text": "I wake up early.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 574,
+    "text": "I brush my teeth.",
+    "category": "daily_routine",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 575,
+    "text": "I take a bath.",
+    "category": "daily_routine",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 576,
+    "text": "I eat breakfast.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 577,
+    "text": "I go to work.",
+    "category": "daily_routine",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 578,
+    "text": "I study every day.",
+    "category": "daily_routine",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 579,
+    "text": "I drink water.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 580,
+    "text": "I sleep early.",
+    "category": "daily_routine",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 581,
+    "text": "Please, I wake up early.",
+    "category": "daily_routine",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 582,
+    "text": "Please, I brush my teeth.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 583,
+    "text": "Please, I take a bath.",
+    "category": "daily_routine",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 584,
+    "text": "Please, I eat breakfast.",
+    "category": "daily_routine",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 585,
+    "text": "Please, I go to work.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 586,
+    "text": "Please, I study every day.",
+    "category": "daily_routine",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 587,
+    "text": "Please, I drink water.",
+    "category": "daily_routine",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 588,
+    "text": "Please, I sleep early.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 589,
+    "text": "Today, I wake up early.",
+    "category": "daily_routine",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 590,
+    "text": "Today, I brush my teeth.",
+    "category": "daily_routine",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 591,
+    "text": "Today, I take a bath.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 592,
+    "text": "Today, I eat breakfast.",
+    "category": "daily_routine",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 593,
+    "text": "Today, I go to work.",
+    "category": "daily_routine",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 594,
+    "text": "Today, I study every day.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 595,
+    "text": "Today, I drink water.",
+    "category": "daily_routine",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 596,
+    "text": "Today, I sleep early.",
+    "category": "daily_routine",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 597,
+    "text": "Actually, I wake up early.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 598,
+    "text": "Actually, I brush my teeth.",
+    "category": "daily_routine",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 599,
+    "text": "Actually, I take a bath.",
+    "category": "daily_routine",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 600,
+    "text": "Actually, I eat breakfast.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 601,
+    "text": "Actually, I go to work.",
+    "category": "daily_routine",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 602,
+    "text": "Actually, I study every day.",
+    "category": "daily_routine",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 603,
+    "text": "Actually, I drink water.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 604,
+    "text": "Actually, I sleep early.",
+    "category": "daily_routine",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 605,
+    "text": "Right now, I wake up early.",
+    "category": "daily_routine",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 606,
+    "text": "Right now, I brush my teeth.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 607,
+    "text": "Right now, I take a bath.",
+    "category": "daily_routine",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 608,
+    "text": "Right now, I eat breakfast.",
+    "category": "daily_routine",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 609,
+    "text": "Right now, I go to work.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 610,
+    "text": "Right now, I study every day.",
+    "category": "daily_routine",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 611,
+    "text": "Right now, I drink water.",
+    "category": "daily_routine",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 612,
+    "text": "Right now, I sleep early.",
+    "category": "daily_routine",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 613,
+    "text": "I need your help.",
+    "category": "asking_help",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 614,
+    "text": "Please guide me.",
+    "category": "asking_help",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 615,
+    "text": "Can you show me?",
+    "category": "asking_help",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 616,
+    "text": "I do not understand.",
+    "category": "asking_help",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 617,
+    "text": "Please explain again.",
+    "category": "asking_help",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 618,
+    "text": "Can you check this?",
+    "category": "asking_help",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 619,
+    "text": "What should I do next?",
+    "category": "asking_help",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 620,
+    "text": "Please, I need your help.",
+    "category": "asking_help",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 621,
+    "text": "Please, Can you show me?",
+    "category": "asking_help",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 622,
+    "text": "Please, I do not understand.",
+    "category": "asking_help",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 623,
+    "text": "Please, Can you check this?",
+    "category": "asking_help",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 624,
+    "text": "Please, What should I do next?",
+    "category": "asking_help",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 625,
+    "text": "Today, I need your help.",
+    "category": "asking_help",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 626,
+    "text": "Today, Please guide me.",
+    "category": "asking_help",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 627,
+    "text": "Today, Can you show me?",
+    "category": "asking_help",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 628,
+    "text": "Today, I do not understand.",
+    "category": "asking_help",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 629,
+    "text": "Today, Please explain again.",
+    "category": "asking_help",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 630,
+    "text": "Today, Can you check this?",
+    "category": "asking_help",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 631,
+    "text": "Today, What should I do next?",
+    "category": "asking_help",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 632,
+    "text": "Actually, I need your help.",
+    "category": "asking_help",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 633,
+    "text": "Actually, Please guide me.",
+    "category": "asking_help",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 634,
+    "text": "Actually, Can you show me?",
+    "category": "asking_help",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 635,
+    "text": "Actually, I do not understand.",
+    "category": "asking_help",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 636,
+    "text": "Actually, Please explain again.",
+    "category": "asking_help",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 637,
+    "text": "Actually, Can you check this?",
+    "category": "asking_help",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 638,
+    "text": "Actually, What should I do next?",
+    "category": "asking_help",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 639,
+    "text": "Right now, I need your help.",
+    "category": "asking_help",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 640,
+    "text": "Right now, Please guide me.",
+    "category": "asking_help",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 641,
+    "text": "Right now, Can you show me?",
+    "category": "asking_help",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 642,
+    "text": "Right now, I do not understand.",
+    "category": "asking_help",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 643,
+    "text": "Right now, Please explain again.",
+    "category": "asking_help",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 644,
+    "text": "Right now, Can you check this?",
+    "category": "asking_help",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 645,
+    "text": "Right now, What should I do next?",
+    "category": "asking_help",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 646,
+    "text": "Please wait a moment.",
+    "category": "polite_requests",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 647,
+    "text": "Could you help me?",
+    "category": "polite_requests",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 648,
+    "text": "Can you send the details?",
+    "category": "polite_requests",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 649,
+    "text": "Please give me some time.",
+    "category": "polite_requests",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 650,
+    "text": "May I ask one question?",
+    "category": "polite_requests",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 651,
+    "text": "Please call me later.",
+    "category": "polite_requests",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 652,
+    "text": "Could you repeat that?",
+    "category": "polite_requests",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 653,
+    "text": "Please, Could you help me?",
+    "category": "polite_requests",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 654,
+    "text": "Please, Can you send the details?",
+    "category": "polite_requests",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 655,
+    "text": "Please, May I ask one question?",
+    "category": "polite_requests",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 656,
+    "text": "Please, Could you repeat that?",
+    "category": "polite_requests",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 657,
+    "text": "Today, Please wait a moment.",
+    "category": "polite_requests",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 658,
+    "text": "Today, Could you help me?",
+    "category": "polite_requests",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 659,
+    "text": "Today, Can you send the details?",
+    "category": "polite_requests",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 660,
+    "text": "Today, Please give me some time.",
+    "category": "polite_requests",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 661,
+    "text": "Today, May I ask one question?",
+    "category": "polite_requests",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 662,
+    "text": "Today, Please call me later.",
+    "category": "polite_requests",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 663,
+    "text": "Today, Could you repeat that?",
+    "category": "polite_requests",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 664,
+    "text": "Actually, Please wait a moment.",
+    "category": "polite_requests",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 665,
+    "text": "Actually, Could you help me?",
+    "category": "polite_requests",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 666,
+    "text": "Actually, Can you send the details?",
+    "category": "polite_requests",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 667,
+    "text": "Actually, Please give me some time.",
+    "category": "polite_requests",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 668,
+    "text": "Actually, May I ask one question?",
+    "category": "polite_requests",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 669,
+    "text": "Actually, Please call me later.",
+    "category": "polite_requests",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 670,
+    "text": "Actually, Could you repeat that?",
+    "category": "polite_requests",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 671,
+    "text": "Right now, Please wait a moment.",
+    "category": "polite_requests",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 672,
+    "text": "Right now, Could you help me?",
+    "category": "polite_requests",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 673,
+    "text": "Right now, Can you send the details?",
+    "category": "polite_requests",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 674,
+    "text": "Right now, Please give me some time.",
+    "category": "polite_requests",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 675,
+    "text": "Right now, May I ask one question?",
+    "category": "polite_requests",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 676,
+    "text": "Right now, Please call me later.",
+    "category": "polite_requests",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 677,
+    "text": "Right now, Could you repeat that?",
+    "category": "polite_requests",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 678,
+    "text": "I think this is good.",
+    "category": "opinions",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 679,
+    "text": "I do not agree.",
+    "category": "opinions",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 680,
+    "text": "This looks better.",
+    "category": "opinions",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 681,
+    "text": "I like this option.",
+    "category": "opinions",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 682,
+    "text": "We should try again.",
+    "category": "opinions",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 683,
+    "text": "This is useful.",
+    "category": "opinions",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 684,
+    "text": "I have another idea.",
+    "category": "opinions",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 685,
+    "text": "Please, I think this is good.",
+    "category": "opinions",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 686,
+    "text": "Please, I do not agree.",
+    "category": "opinions",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 687,
+    "text": "Please, This looks better.",
+    "category": "opinions",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 688,
+    "text": "Please, I like this option.",
+    "category": "opinions",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 689,
+    "text": "Please, We should try again.",
+    "category": "opinions",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 690,
+    "text": "Please, This is useful.",
+    "category": "opinions",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 691,
+    "text": "Please, I have another idea.",
+    "category": "opinions",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 692,
+    "text": "Today, I think this is good.",
+    "category": "opinions",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 693,
+    "text": "Today, I do not agree.",
+    "category": "opinions",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 694,
+    "text": "Today, This looks better.",
+    "category": "opinions",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 695,
+    "text": "Today, I like this option.",
+    "category": "opinions",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 696,
+    "text": "Today, We should try again.",
+    "category": "opinions",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 697,
+    "text": "Today, This is useful.",
+    "category": "opinions",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 698,
+    "text": "Today, I have another idea.",
+    "category": "opinions",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 699,
+    "text": "Actually, I think this is good.",
+    "category": "opinions",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 700,
+    "text": "Actually, I do not agree.",
+    "category": "opinions",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 701,
+    "text": "Actually, This looks better.",
+    "category": "opinions",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 702,
+    "text": "Actually, I like this option.",
+    "category": "opinions",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 703,
+    "text": "Actually, We should try again.",
+    "category": "opinions",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 704,
+    "text": "Actually, This is useful.",
+    "category": "opinions",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 705,
+    "text": "Actually, I have another idea.",
+    "category": "opinions",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 706,
+    "text": "Right now, I think this is good.",
+    "category": "opinions",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 707,
+    "text": "Right now, I do not agree.",
+    "category": "opinions",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 708,
+    "text": "Right now, This looks better.",
+    "category": "opinions",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 709,
+    "text": "Right now, I like this option.",
+    "category": "opinions",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 710,
+    "text": "Right now, We should try again.",
+    "category": "opinions",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 711,
+    "text": "Right now, This is useful.",
+    "category": "opinions",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 712,
+    "text": "Right now, I have another idea.",
+    "category": "opinions",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 713,
+    "text": "I am happy.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 714,
+    "text": "I am tired.",
+    "category": "emotions",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 715,
+    "text": "I am excited.",
+    "category": "emotions",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 716,
+    "text": "I am nervous.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 717,
+    "text": "I feel relaxed.",
+    "category": "emotions",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 718,
+    "text": "I am worried.",
+    "category": "emotions",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 719,
+    "text": "I am confused.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 720,
+    "text": "I feel better now.",
+    "category": "emotions",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 721,
+    "text": "Please, I am happy.",
+    "category": "emotions",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 722,
+    "text": "Please, I am tired.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 723,
+    "text": "Please, I am excited.",
+    "category": "emotions",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 724,
+    "text": "Please, I am nervous.",
+    "category": "emotions",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 725,
+    "text": "Please, I feel relaxed.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 726,
+    "text": "Please, I am worried.",
+    "category": "emotions",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 727,
+    "text": "Please, I am confused.",
+    "category": "emotions",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 728,
+    "text": "Please, I feel better now.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 729,
+    "text": "Today, I am happy.",
+    "category": "emotions",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 730,
+    "text": "Today, I am tired.",
+    "category": "emotions",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 731,
+    "text": "Today, I am excited.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 732,
+    "text": "Today, I am nervous.",
+    "category": "emotions",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 733,
+    "text": "Today, I feel relaxed.",
+    "category": "emotions",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 734,
+    "text": "Today, I am worried.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 735,
+    "text": "Today, I am confused.",
+    "category": "emotions",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 736,
+    "text": "Today, I feel better now.",
+    "category": "emotions",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 737,
+    "text": "Actually, I am happy.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 738,
+    "text": "Actually, I am tired.",
+    "category": "emotions",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 739,
+    "text": "Actually, I am excited.",
+    "category": "emotions",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 740,
+    "text": "Actually, I am nervous.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 741,
+    "text": "Actually, I feel relaxed.",
+    "category": "emotions",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 742,
+    "text": "Actually, I am worried.",
+    "category": "emotions",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 743,
+    "text": "Actually, I am confused.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 744,
+    "text": "Actually, I feel better now.",
+    "category": "emotions",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 745,
+    "text": "Right now, I am happy.",
+    "category": "emotions",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 746,
+    "text": "Right now, I am tired.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 747,
+    "text": "Right now, I am excited.",
+    "category": "emotions",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 748,
+    "text": "Right now, I am nervous.",
+    "category": "emotions",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 749,
+    "text": "Right now, I feel relaxed.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 750,
+    "text": "Right now, I am worried.",
+    "category": "emotions",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 751,
+    "text": "Right now, I am confused.",
+    "category": "emotions",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 752,
+    "text": "Right now, I feel better now.",
+    "category": "emotions",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 753,
+    "text": "Turn left.",
+    "category": "directions",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 754,
+    "text": "Turn right.",
+    "category": "directions",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 755,
+    "text": "Go straight.",
+    "category": "directions",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 756,
+    "text": "It is near the market.",
+    "category": "directions",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 757,
+    "text": "It is far from here.",
+    "category": "directions",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 758,
+    "text": "Is this the right way?",
+    "category": "directions",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 759,
+    "text": "Where should I go?",
+    "category": "directions",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 760,
+    "text": "Please show me the location.",
+    "category": "directions",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 761,
+    "text": "Please, Turn left.",
+    "category": "directions",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 762,
+    "text": "Please, Turn right.",
+    "category": "directions",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 763,
+    "text": "Please, Go straight.",
+    "category": "directions",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 764,
+    "text": "Please, It is near the market.",
+    "category": "directions",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 765,
+    "text": "Please, It is far from here.",
+    "category": "directions",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 766,
+    "text": "Please, Is this the right way?",
+    "category": "directions",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 767,
+    "text": "Please, Where should I go?",
+    "category": "directions",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 768,
+    "text": "Today, Turn left.",
+    "category": "directions",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 769,
+    "text": "Today, Turn right.",
+    "category": "directions",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 770,
+    "text": "Today, Go straight.",
+    "category": "directions",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 771,
+    "text": "Today, It is near the market.",
+    "category": "directions",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 772,
+    "text": "Today, It is far from here.",
+    "category": "directions",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 773,
+    "text": "Today, Is this the right way?",
+    "category": "directions",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 774,
+    "text": "Today, Where should I go?",
+    "category": "directions",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 775,
+    "text": "Today, Please show me the location.",
+    "category": "directions",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 776,
+    "text": "Actually, Turn left.",
+    "category": "directions",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 777,
+    "text": "Actually, Turn right.",
+    "category": "directions",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 778,
+    "text": "Actually, Go straight.",
+    "category": "directions",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 779,
+    "text": "Actually, It is near the market.",
+    "category": "directions",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 780,
+    "text": "Actually, It is far from here.",
+    "category": "directions",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 781,
+    "text": "Actually, Is this the right way?",
+    "category": "directions",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 782,
+    "text": "Actually, Where should I go?",
+    "category": "directions",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 783,
+    "text": "Actually, Please show me the location.",
+    "category": "directions",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 784,
+    "text": "Right now, Turn left.",
+    "category": "directions",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 785,
+    "text": "Right now, Turn right.",
+    "category": "directions",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 786,
+    "text": "Right now, Go straight.",
+    "category": "directions",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 787,
+    "text": "Right now, It is near the market.",
+    "category": "directions",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 788,
+    "text": "Right now, It is far from here.",
+    "category": "directions",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 789,
+    "text": "Right now, Is this the right way?",
+    "category": "directions",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 790,
+    "text": "Right now, Where should I go?",
+    "category": "directions",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 791,
+    "text": "Right now, Please show me the location.",
+    "category": "directions",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 792,
+    "text": "Please call for help.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 793,
+    "text": "I need help now.",
+    "category": "emergency",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 794,
+    "text": "Call the ambulance.",
+    "category": "emergency",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 795,
+    "text": "Stay calm.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 796,
+    "text": "Move to a safe place.",
+    "category": "emergency",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 797,
+    "text": "This is urgent.",
+    "category": "emergency",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 798,
+    "text": "Please come quickly.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 799,
+    "text": "I cannot do this alone.",
+    "category": "emergency",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 800,
+    "text": "Please, I need help now.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 801,
+    "text": "Please, Call the ambulance.",
+    "category": "emergency",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 802,
+    "text": "Please, Stay calm.",
+    "category": "emergency",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 803,
+    "text": "Please, Move to a safe place.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 804,
+    "text": "Please, This is urgent.",
+    "category": "emergency",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 805,
+    "text": "Please, I cannot do this alone.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 806,
+    "text": "Today, Please call for help.",
+    "category": "emergency",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 807,
+    "text": "Today, I need help now.",
+    "category": "emergency",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 808,
+    "text": "Today, Call the ambulance.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 809,
+    "text": "Today, Stay calm.",
+    "category": "emergency",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 810,
+    "text": "Today, Move to a safe place.",
+    "category": "emergency",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 811,
+    "text": "Today, This is urgent.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 812,
+    "text": "Today, Please come quickly.",
+    "category": "emergency",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 813,
+    "text": "Today, I cannot do this alone.",
+    "category": "emergency",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 814,
+    "text": "Actually, Please call for help.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 815,
+    "text": "Actually, I need help now.",
+    "category": "emergency",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 816,
+    "text": "Actually, Call the ambulance.",
+    "category": "emergency",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 817,
+    "text": "Actually, Stay calm.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "practice"
+  },
+  {
+    "id": 818,
+    "text": "Actually, Move to a safe place.",
+    "category": "emergency",
+    "level": "intermediate",
+    "tag": "spoken"
+  },
+  {
+    "id": 819,
+    "text": "Actually, This is urgent.",
+    "category": "emergency",
+    "level": "advanced",
+    "tag": "daily"
+  },
+  {
+    "id": 820,
+    "text": "Actually, Please come quickly.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "casual"
+  },
+  {
+    "id": 821,
+    "text": "Actually, I cannot do this alone.",
+    "category": "emergency",
+    "level": "intermediate",
+    "tag": "practice"
+  },
+  {
+    "id": 822,
+    "text": "Right now, Please call for help.",
+    "category": "emergency",
+    "level": "advanced",
+    "tag": "spoken"
+  },
+  {
+    "id": 823,
+    "text": "Right now, I need help now.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "daily"
+  },
+  {
+    "id": 824,
+    "text": "Right now, Call the ambulance.",
+    "category": "emergency",
+    "level": "intermediate",
+    "tag": "casual"
+  },
+  {
+    "id": 825,
+    "text": "Right now, Stay calm.",
+    "category": "emergency",
+    "level": "advanced",
+    "tag": "practice"
+  },
+  {
+    "id": 826,
+    "text": "Right now, Move to a safe place.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "spoken"
+  },
+  {
+    "id": 827,
+    "text": "Right now, This is urgent.",
+    "category": "emergency",
+    "level": "intermediate",
+    "tag": "daily"
+  },
+  {
+    "id": 828,
+    "text": "Right now, Please come quickly.",
+    "category": "emergency",
+    "level": "advanced",
+    "tag": "casual"
+  },
+  {
+    "id": 829,
+    "text": "Right now, I cannot do this alone.",
+    "category": "emergency",
+    "level": "beginner",
+    "tag": "practice"
+  }
+]
