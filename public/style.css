@@ -2279,3 +2279,91 @@ html[data-theme="light"] .reader-line.speaking {
     margin: 4px auto !important;
   }
 }
+/* ===============================
+   FINAL UI FIX (SAFE PATCH)
+   =============================== */
+
+/* LIGHT MODE TEXT FIX */
+html[data-theme="light"] body{
+  background:#f7fbff !important;
+  color:#071225 !important;
+}
+
+html[data-theme="light"] .panel,
+html[data-theme="light"] .reader-panel,
+html[data-theme="light"] .sidebar{
+  background:#ffffff !important;
+  color:#071225 !important;
+}
+
+/* READER BLACK FADE REMOVE */
+.fade-top,
+.fade-bottom{
+  display:none !important;
+}
+
+/* TEXT VISIBILITY FIX */
+html[data-theme="light"] *{
+  opacity:1 !important;
+}
+
+/* BUTTON FIX */
+.btn{
+  width:100% !important;
+  border-radius:14px !important;
+}
+
+/* MOBILE FIX */
+@media(max-width:768px){
+
+  .nav-links{
+    position:fixed !important;
+    top:70px;
+    left:10px;
+    right:10px;
+    background:#020817;
+    padding:15px;
+    border-radius:20px;
+    display:none;
+    flex-direction:column;
+    z-index:9999;
+  }
+
+  .nav-links.open{
+    display:flex !important;
+  }
+
+  .nav-links a,
+  .nav-links button{
+    width:100%;
+    text-align:center;
+    padding:12px;
+  }
+
+  .reader-window{
+    height:60vh !important;
+  }
+
+  .footer{
+    text-align:center;
+    padding-bottom:90px;
+  }
+
+}
+/* FINAL SPEAKING PRACTICE BADGE FIX */
+html[data-theme="light"] .eyebrow {
+  background: #dcfce7 !important;
+  color: #065f46 !important;
+  border: 1px solid #22c55e !important;
+  opacity: 1 !important;
+  font-weight: 900 !important;
+  text-shadow: none !important;
+}
+
+html[data-theme="dark"] .eyebrow {
+  background: rgba(104, 240, 210, 0.12) !important;
+  color: #d4fff6 !important;
+  border: 1px solid rgba(104, 240, 210, 0.28) !important;
+  opacity: 1 !important;
+  font-weight: 900 !important;
+}
