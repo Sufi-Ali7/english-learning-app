@@ -14,7 +14,22 @@ async function session(){
 }
 async function loadCategoryOptions(){const select=qs("#categoryFilter");if(!select)return;const chosen=new URLSearchParams(location.search).get("category")||select.value;const data=await api("/api/categories").catch(()=>({categories:[]}));qsa("option[data-dynamic='true']",select).forEach(o=>o.remove());data.categories.sort((a,b)=>a.value.localeCompare(b.value)).forEach(c=>{const opt=document.createElement("option");opt.value=c.value;opt.dataset.dynamic="true";opt.textContent=categoryLabels[c.value]||c.value.replaceAll("_"," ");select.appendChild(opt)});if(chosen)select.value=chosen}
 
-function initTheme(){ document.documentElement.removeAttribute("data-theme"); localStorage.removeItem("ef_theme"); }
+function initTheme(){
+  const saved = localStorage.getItem("ef_theme") || "dark";
+  document.documentElement.setAttribute("data-theme", saved);
+
+  const btn = document.querySelector("#themeToggle");
+  if(btn){
+    btn.textContent = saved === "light" ? "🌙 Dark" : "☀️ Light";
+    btn.addEventListener("click", () => {
+      const current = document.documentElement.getAttribute("data-theme") || "dark";
+      const next = current === "light" ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", next);
+      localStorage.setItem("ef_theme", next);
+      btn.textContent = next === "light" ? "🌙 Dark" : "☀️ Light";
+    });
+  }
+}
 function nav(){const menu=qs("#menuToggle"),navBox=qs("#navLinks");if(menu&&navBox)menu.addEventListener("click",()=>navBox.classList.toggle("open"));let current=(location.pathname||"/").replace(/\/+$/,"")||"/";qsa(".nav-links a").forEach(a=>{a.classList.remove("active");const href=a.getAttribute("href");if(!href||href.startsWith("javascript"))return;let linkPath=href.replace(/\/+$/,"")||"/";if(linkPath===current)a.classList.add("active")})}
 function auth(){qs("#signupForm")?.addEventListener("submit",async e=>{e.preventDefault();try{const d=await api("/api/auth/signup",{method:"POST",body:JSON.stringify(Object.fromEntries(new FormData(e.currentTarget).entries()))});msg("#signupMessage",d.message);setTimeout(()=>location.href="/profile",700)}catch(x){msg("#signupMessage",x.message,"error")}});qs("#loginForm")?.addEventListener("submit",async e=>{e.preventDefault();try{const d=await api("/api/auth/login",{method:"POST",body:JSON.stringify(Object.fromEntries(new FormData(e.currentTarget).entries()))});msg("#loginMessage",d.message);setTimeout(()=>location.href="/profile",700)}catch(x){msg("#loginMessage",x.message,"error")}});qs("#logoutBtn")?.addEventListener("click",async()=>{await api("/api/auth/logout",{method:"POST"});location.href="/"})}
 function chooseVoice(){const voices=speechSynthesis.getVoices();const f=voices.find(v=>/female|zira|susan|samantha|victoria|google uk english female/i.test(v.name));const m=voices.find(v=>/male|david|mark|daniel|alex|google uk english male/i.test(v.name));return state.voiceType==="male"?(m||voices.find(v=>/en/i.test(v.lang))||voices[0]):(f||voices.find(v=>/en/i.test(v.lang))||voices[0])}
