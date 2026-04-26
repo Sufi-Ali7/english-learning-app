@@ -1,6 +1,5 @@
 require("dotenv").config();
 
-
 const express = require("express");
 const session = require("express-session");
 const mongoose = require("mongoose");
@@ -18,14 +17,19 @@ const SENTENCES = path.join(DATA, "sentences.json");
 
 app.use(express.json({ limit: "10mb" }));
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, "public")));
+
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
 
 app.use(
   session({
     secret: process.env.SESSION_SECRET || "change-this-secret-in-env",
     resave: false,
     saveUninitialized: false,
-    cookie: { maxAge: 604800000 }
-  })
+    cookie: { maxAge: 604800000 },
+  }),
 );
 
 app.use(express.static(path.join(__dirname, "public")));
@@ -67,7 +71,7 @@ function pub(u) {
     savedCount: (u.savedSentenceIds || []).length,
     practicedCount: u.practicedCount || 0,
     streak: u.streak || 0,
-    lastPracticeDate: u.lastPracticeDate || null
+    lastPracticeDate: u.lastPracticeDate || null,
   };
 }
 
@@ -96,7 +100,9 @@ function needAdmin(req, res, next) {
 function progress(u) {
   const today = new Date().toISOString().slice(0, 10);
   if (u.lastPracticeDate !== today) {
-    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+    const yesterday = new Date(Date.now() - 86400000)
+      .toISOString()
+      .slice(0, 10);
     u.streak = u.lastPracticeDate === yesterday ? (u.streak || 0) + 1 : 1;
     u.lastPracticeDate = today;
   }
@@ -109,7 +115,7 @@ app.get("/api/health", async (req, res) => {
     ok: true,
     sentences: sentences().length,
     users: userCount,
-    db: mongoose.connection.readyState === 1 ? "connected" : "not connected"
+    db: mongoose.connection.readyState === 1 ? "connected" : "not connected",
   });
 });
 
@@ -119,7 +125,7 @@ app.get("/api/categories", (req, res) => {
     map[s.category] = (map[s.category] || 0) + 1;
   });
   res.json({
-    categories: Object.entries(map).map(([value, count]) => ({ value, count }))
+    categories: Object.entries(map).map(([value, count]) => ({ value, count })),
   });
 });
 
@@ -131,21 +137,25 @@ app.get("/api/auth/me", async (req, res) => {
 
   res.json({
     user: user ? pub(user) : null,
-    admin: !!req.session.admin
+    admin: !!req.session.admin,
   });
 });
 
 app.post("/api/auth/signup", async (req, res) => {
   try {
     const name = String(req.body.name || "").trim();
-    const email = String(req.body.email || "").trim().toLowerCase();
+    const email = String(req.body.email || "")
+      .trim()
+      .toLowerCase();
     const password = String(req.body.password || "");
 
     if (!name || !email || !password) {
       return res.status(400).json({ error: "All fields are required." });
     }
     if (password.length < 6) {
-      return res.status(400).json({ error: "Password must be at least 6 characters." });
+      return res
+        .status(400)
+        .json({ error: "Password must be at least 6 characters." });
     }
 
     const existing = await User.findOne({ email });
@@ -162,7 +172,7 @@ app.post("/api/auth/signup", async (req, res) => {
       savedSentenceIds: [],
       practicedCount: 0,
       streak: 0,
-      lastPracticeDate: null
+      lastPracticeDate: null,
     });
 
     req.session.userId = String(user._id);
@@ -174,7 +184,9 @@ app.post("/api/auth/signup", async (req, res) => {
 
 app.post("/api/auth/login", async (req, res) => {
   try {
-    const email = String(req.body.email || "").trim().toLowerCase();
+    const email = String(req.body.email || "")
+      .trim()
+      .toLowerCase();
     const password = String(req.body.password || "");
 
     const user = await User.findOne({ email });
@@ -197,7 +209,9 @@ app.get("/api/sentences", (req, res) => {
   let list = sentences();
   const cat = String(req.query.category || "all");
   const level = String(req.query.level || "all");
-  const q = String(req.query.q || "").toLowerCase().trim();
+  const q = String(req.query.q || "")
+    .toLowerCase()
+    .trim();
   const limit = Math.min(Number(req.query.limit) || 1200, 2000);
 
   if (cat !== "all") list = list.filter((x) => x.category === cat);
@@ -236,7 +250,9 @@ app.post("/api/saved/:id", needUser, async (req, res) => {
 
 app.delete("/api/saved/:id", needUser, async (req, res) => {
   const id = Number(req.params.id);
-  req.user.savedSentenceIds = (req.user.savedSentenceIds || []).filter((x) => x !== id);
+  req.user.savedSentenceIds = (req.user.savedSentenceIds || []).filter(
+    (x) => x !== id,
+  );
   await req.user.save();
   res.json({ message: "Removed." });
 });
@@ -246,8 +262,10 @@ app.get("/api/profile", needUser, (req, res) => {
   res.json({
     profile: {
       ...pub(req.user),
-      saved: sentences().filter((s) => ids.has(s.id)).slice(0, 12)
-    }
+      saved: sentences()
+        .filter((s) => ids.has(s.id))
+        .slice(0, 12),
+    },
   });
 });
 
@@ -256,7 +274,9 @@ app.post("/api/admin/login", (req, res) => {
   const adminPass = process.env.ADMIN_PASSWORD;
 
   if (!adminUser || !adminPass) {
-    return res.status(500).json({ error: "Admin credentials are not configured in .env." });
+    return res
+      .status(500)
+      .json({ error: "Admin credentials are not configured in .env." });
   }
 
   if (req.body.username === adminUser && req.body.password === adminPass) {
@@ -279,13 +299,15 @@ app.get("/api/admin/stats", needAdmin, async (req, res) => {
   res.json({
     sentenceCount: list.length,
     userCount,
-    categoryCount: [...new Set(list.map((x) => x.category))].length
+    categoryCount: [...new Set(list.map((x) => x.category))].length,
   });
 });
 
 app.get("/api/admin/sentences", needAdmin, (req, res) => {
   let list = sentences();
-  const q = String(req.query.q || "").toLowerCase().trim();
+  const q = String(req.query.q || "")
+    .toLowerCase()
+    .trim();
   const cat = String(req.query.category || "all");
   const level = String(req.query.level || "all");
 
@@ -307,7 +329,7 @@ app.post("/api/admin/sentences", needAdmin, (req, res) => {
     text,
     category: String(req.body.category || "daily_routine"),
     level: String(req.body.level || "beginner"),
-    tag: String(req.body.tag || "spoken")
+    tag: String(req.body.tag || "spoken"),
   };
 
   list.unshift(item);
@@ -339,7 +361,8 @@ app.delete("/api/admin/sentences/:id", needAdmin, (req, res) => {
 
 app.post("/api/admin/import", needAdmin, (req, res) => {
   const rows = Array.isArray(req.body.items) ? req.body.items : [];
-  if (!rows.length) return res.status(400).json({ error: "No items provided." });
+  if (!rows.length)
+    return res.status(400).json({ error: "No items provided." });
 
   const list = sentences();
   let id = list.length ? Math.max(...list.map((x) => x.id)) + 1 : 1;
@@ -350,7 +373,7 @@ app.post("/api/admin/import", needAdmin, (req, res) => {
       text: String(r.text || r.sentence || "").trim(),
       category: String(r.category || "daily_routine"),
       level: String(r.level || "beginner"),
-      tag: String(r.tag || "spoken")
+      tag: String(r.tag || "spoken"),
     }))
     .filter((x) => x.text);
 
@@ -372,9 +395,21 @@ app.get("/admin", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "admin.html"));
 });
 
-["/", "/practice", "/categories", "/saved", "/profile", "/login", "/signup"].forEach((route) => {
+[
+  "/",
+  "/practice",
+  "/categories",
+  "/saved",
+  "/profile",
+  "/login",
+  "/signup",
+].forEach((route) => {
   const file = route === "/" ? "index.html" : route.slice(1) + ".html";
-  app.get(route, (req, res) => res.sendFile(path.join(__dirname, "public", file)));
+  app.get(route, (req, res) =>
+    res.sendFile(path.join(__dirname, "public", file)),
+  );
 });
 
-app.listen(PORT, () => console.log(`EnglishFlow running on http://localhost:${PORT}`));
+app.listen(PORT, () =>
+  console.log(`EnglishFlow running on http://localhost:${PORT}`),
+);
